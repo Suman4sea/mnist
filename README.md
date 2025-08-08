@@ -5,11 +5,10 @@ This project implements a neural network model using TensorFlow to classify hand
 ## 📁 Files
 
 - `mnist.ipynb` – Jupyter notebook with full model pipeline and training steps.
-- `mnist.csv` – CSV version of the MNIST dataset containing image pixel values and labels.
 
 ## 🚀 Features
 
-- Loads and preprocesses MNIST digit images from CSV format
+- Loads and preprocesses MNIST digit images 
 - Normalizes pixel values for better training performance
 - Builds a feedforward neural network with hidden layers and ReLU activation
 - Uses softmax output for multi-class digit classification (0–9)
